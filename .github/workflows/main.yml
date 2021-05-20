@@ -1,10 +1,10 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME = "alex-k-test-githubactions"
-  EB_APPLICATION_NAME       = "myGoApp"
-  EB_ENVIRONMENT_NAME       = "myGoApp-env"
-  DEPOY_PACKAGE_NAME        = "go-app-${{ githab.sha }}.zip"
-  AWS_REGION_NAME           = "us-west-2"
+  EB_PACKAGE_S3_BUCKET_NAME : "alex-k-test-githubactions"
+  EB_APPLICATION_NAME       : "MyGo"
+  EB_ENVIRONMENT_NAME       : "MyGo"
+  DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
+  AWS_REGION_NAME           : "us-west-2"
 
 on: 
   push:
