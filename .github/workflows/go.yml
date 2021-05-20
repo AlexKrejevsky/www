@@ -13,7 +13,8 @@ on:
 
 jobs:
   my_ci_pipeline:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
+    
     steps:
       - name: clone our rep
       - uses: actions/checkout@v1
