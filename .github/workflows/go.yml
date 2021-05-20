@@ -1,4 +1,4 @@
-name: Go
+name: GoApp
 env:
   EB_PACKAGE_S3_BUCKET_NAME = "alex-k-test-githubactions"
   EB_APPLICATION_NAME       = "myGoApp"
